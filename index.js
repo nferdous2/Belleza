@@ -359,9 +359,9 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-  res.send('boss is sitting')
+  res.send('Belleza is running')
 })
 
 app.listen(port, () => {
-  console.log(`Belleza is sitting on port ${port}`);
+  console.log(`Belleza is running on port ${port}`);
 })
